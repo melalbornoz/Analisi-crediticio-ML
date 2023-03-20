@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/home/melkramir/anaconda3/envs/Analisis-crediticio
+exec_prefix=/home/melkramir/anaconda3/envs/Analisis-crediticio
+libdir=/home/melkramir/anaconda3/envs/Analisis-crediticio/lib
+includedir=/home/melkramir/anaconda3/envs/Analisis-crediticio/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.10
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread

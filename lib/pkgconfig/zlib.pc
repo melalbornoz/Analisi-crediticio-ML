@@ -1,0 +1,13 @@
+prefix=/home/melkramir/anaconda3/envs/Analisis-crediticio
+exec_prefix=/home/melkramir/anaconda3/envs/Analisis-crediticio
+libdir=/home/melkramir/anaconda3/envs/Analisis-crediticio/lib
+sharedlibdir=/home/melkramir/anaconda3/envs/Analisis-crediticio/lib
+includedir=/home/melkramir/anaconda3/envs/Analisis-crediticio/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
